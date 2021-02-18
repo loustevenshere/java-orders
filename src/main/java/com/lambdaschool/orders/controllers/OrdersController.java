@@ -29,4 +29,11 @@ public class OrdersController {
         Order o = orderServices.findOrdersById(ordernum);
         return new ResponseEntity<>(o, HttpStatus.OK);
     }
+
+//    POST /orders/order - adds a new order to an existing customer
+//
+//    PUT /orders/order/{ordernum} - completely replaces the given order record
+//
+//    DELETE /orders/order/{ordernum} - deletes the given order
+
 }
