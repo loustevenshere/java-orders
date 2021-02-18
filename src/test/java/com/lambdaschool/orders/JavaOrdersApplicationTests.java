@@ -1,4 +1,4 @@
-package com.lambdaschool.javaorders;
+package com.lambdaschool.orders;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
